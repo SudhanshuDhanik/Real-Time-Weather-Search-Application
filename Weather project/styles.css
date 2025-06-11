@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: linear-gradient(100deg, #63d3e0, #abec8d);
+
+
+}
+.weather-container{
+    width: 90%;
+max-width:470px;
+color: rgb(230, 233, 236);
+background: linear-gradient(130deg,#00feba,#5b548a);
+margin: 100px  auto ;
+border-radius: 20px;
+padding:  35px 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+.search-container{
+    display: flex;
+    margin: 10px 0px;
+}
+.search-container input{
+    border-radius: 25px;
+    width: 90%;
+    font-size: medium;
+    padding-left: 6px;
+}
+.search-container button{
+    border: 0;
+    background: none;
+    padding-left: 5px;
+}
+.search-container button:hover{
+    transition: ease-in 1s;
+    transform: scale(1.4);
+}
+.temp{
+    margin:10px 0px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.humidity,.windSpeed{
+    display: flex;
+    align-items: center;
+}
+.humidity img,.windSpeed img{
+    width: 40px;
+    margin-right: 10px;
+}
